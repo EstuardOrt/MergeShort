@@ -74,6 +74,7 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] array = generateRandomArray(10000000);
         System.out.println("Array original:");
+        System.out.println("cambio minimo");
         printArray(array);
         long inicio = System.nanoTime();
         mergeSort(array, 0, array.length - 1);
